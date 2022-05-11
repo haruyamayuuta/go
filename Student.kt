@@ -19,6 +19,7 @@ import java.util.Properties
 object Student:IntIdTable("Studen"){
     //val number = integer("id").uniqueIndex()
     val name = varchar("name",50)
+    val test = ""
 }
 //テーブルにクラス
 class SS(id: EntityID<Int>) : IntEntity(id) {
