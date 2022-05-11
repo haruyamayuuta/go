@@ -20,6 +20,7 @@ object Student:IntIdTable("Studen"){
     //val number = integer("id").uniqueIndex()
     val name = varchar("name",50)
     val test = ""
+    val ssh = ""
 }
 //テーブルにクラス
 class SS(id: EntityID<Int>) : IntEntity(id) {
